@@ -3,7 +3,7 @@ $large-semi: "(max-width: 1199px)"; // < 1200
 $medium: "(max-width: 899px)"; // < 900
 $small: "(max-width:  767px)";
 $mobile: "(max-width: 539px)";
-$gradient: linear-gradient(45deg, #0ff, #11f);
+$gradient: linear-gradient(45deg, #0ff, #a3e);
 
 @mixin space() {
   display: block;
@@ -71,7 +71,7 @@ header {
       }
     }
     @media #{$mobile} {
-      left: -50%;
+      left: 50%;
       transform: translate(-50%, -50%);
       font-size: 3.5em;
       &::after {
