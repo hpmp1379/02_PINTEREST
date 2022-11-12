@@ -87,6 +87,7 @@ header .sns li a {
 }
 header .sns li a i {
   font-size: 1.3em;
+  margin-right: 5px;
 }
 @media (max-width: 899px) {
   header .sns span {
